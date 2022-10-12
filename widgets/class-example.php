@@ -93,6 +93,15 @@ class Example extends Widget_Base
 		);
 
 		$this->add_control(
+			'title',
+			[
+				'label'   => __('Title', 'elementor-minopress'),
+				'type'    => Controls_Manager::TEXT,
+				'default' => __('Title', 'elementor-minopress'),
+			]
+		);
+
+		$this->add_control(
 			'content',
 			[
 				'label'   => __('Content', 'elementor-minopress'),
